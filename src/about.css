@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #161513;
+  color: white;
+}
+
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  padding-top: 50px;
+  padding-bottom:90px ;
+}
+
+.about-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1400px; 
+  width: 100%;
+  gap: 10px; 
+}
+
+.aboutpic {
+  width: 100%;
+  max-width: 550px; 
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-right {
+  flex: 1;
+  max-width: 600px; 
+}
+
+.about-para {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-skill {
+  transition: transform 0.3s ease;
+}
+
+.about-skill p {
+  min-width: 150px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.about-skill hr {
+  width: 0;
+  border: none;
+  height: 5px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.63%, #b923e1 102.06%);
+  flex-grow: 1;
+  margin-left: 20px;
+  transition: width 3s ease-in-out;
+}
+
+.about-skill:hover {
+  transform: scale(1.09);
+}
+.about-skill.animated hr {
+  width: 100%;
+}
+
+.skill-level-html {
+  width: 85%;
+}
+
+.skill-level-css {
+  width: 70%;
+}
+
+.skill-level-bootstrap {
+  width: 80%;
+}
+
+.skill-level-js {
+  width: 50%;
+}
+
+.skill-level-react {
+  width: 70%;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .about-section {
+    justify-content: center;
+  }
+
+  .about-right {
+    max-width: 100%;
+    text-align: center;
+  }
+  .aboutpic {
+    width: 85%;
+    max-width: 500px; 
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-skills {
+    margin-right: 0;
+    text-align: start;
+  }
+  .about-para {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+  
+  .about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-skill p {
+    min-width: 100px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 20px;
+  }
+  
+  .about-skill hr {
+    width: 50%;
+    border: none;
+    height: 5px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #da7c25 0.63%, #b923e1 102.06%);
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 838px) {
+  .about-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutpic {
+    width: 100%;
+    max-width: 350px; 
+  }
+
+  .about h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-para {
+    font-size: 1rem;
+  }
+
+  .about-skill p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about h1 {
+    font-size: 2rem;
+  }
+
+  .about-para {
+    font-size: 0.9rem;
+  }
+
+  .about-skill p {
+    font-size: 1rem;
+  }
+
+  .aboutpic {
+    width: 100%;
+    max-width: 300px; 
+  }
+}

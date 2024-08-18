@@ -1,0 +1,221 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #161513;
+  color: white;
+
+}
+
+.header1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  text-align: center;
+}
+
+.picdiv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilepic {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.profile h1 {
+  font-size: 3.2rem;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  user-select: none;
+  margin: 0;
+}
+
+.divakar{
+text-align: center;
+
+}
+
+.profile h1 span {
+  background: linear-gradient(267deg, #da7c25 0.63%, #b923e1 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+}
+
+.profile p {
+  font-family: cursive;
+  width: 100%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 600px;
+  padding: 0 10px;
+}
+
+.buttons {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.headerconnect {
+  padding: 19px 35px;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: linear-gradient(267deg, #da7c25 0.63%, #b923e1 102.06%);
+  transition: all 0.7s ease;
+}
+
+.headerconnect:hover {
+  border: 2px solid white;
+}
+
+.navresume {
+  padding: 15px 30px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  text-decoration: none;
+}
+
+.navresume:hover {
+  border-color: #8415ff;
+}
+.headerconnect:hover {
+  transform: scale(1.09);
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .profilepic {
+    max-width: 350px;
+  }
+  .profile h1 {
+    font-size: 2.2rem;
+  }
+
+  .profile p {
+    font-size: 1.1rem;
+  }
+
+  .headerconnect,
+  .navresume {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .profilepic {
+    max-width: 300px;
+  }
+
+  .profile h1 {
+    font-size: 2rem;
+  }
+
+  .profile p {
+    font-size: 1rem;
+  }
+
+  .headerconnect,
+  .navresume {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header1 {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .profilepic {
+    max-width: 300px;
+  }
+
+  .profile h1 {
+    font-size: 2.3rem;
+  }
+
+  .profile p {
+    font-size: 1.2rem;
+  }
+
+  .headerconnect,
+  .navresume {
+    padding: 20px 45px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .profilepic {
+    max-width: 250px;
+  }
+
+  .profile h1 {
+    font-size: 1.5rem;
+  }
+
+  .profile p {
+    font-size: 0.85rem;
+  }
+
+  .headerconnect,
+  .navresume {
+    padding: 10px 40px;
+    font-size: 0.89rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .profilepic {
+    max-width: 200px;
+  }
+
+  .profile h1 {
+    font-size: 1.3rem;
+  }
+
+  .profile p {
+    font-size: 0.8rem;
+  }
+
+  .headerconnect,
+  .navresume {
+    padding: 10px 40px;
+    font-size: 0.7rem;
+  }
+}
