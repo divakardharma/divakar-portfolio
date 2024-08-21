@@ -2,7 +2,7 @@
 import React from 'react';
 import './mywork.css';
 import Login from './assets/numnerguessing.png';
-import Todolist from './assets/todolist.png';
+import Cafe from './assets/cafe.png';
 import Weather from './assets/weatherapp.png';
 import Ecommerce from './assets/Ecommere.png';
 import Vidtube from './assets/vidtube.png'
@@ -28,7 +28,24 @@ export default function MyWork() {
                   </a>
                 </div>
               </div>
-              <img src={Ecommerce} alt="Movies4u project" />
+              <img src={Ecommerce} alt="Ecommerce-website" />
+            </div>
+          </div>
+
+
+
+          <div className="project">
+            <div className="card" data-aos="flip-left" >
+              <div className="overview">
+                <h1>Coffee-Company</h1>
+                <div className="btns">
+                 
+                  <a href="https://blackcoffee-ecommerce.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <FaLink className='giticons' />
+                  </a>
+                </div>
+              </div>
+              <img src={Cafe} alt="Cafe" />
             </div>
           </div>
 
@@ -45,7 +62,7 @@ export default function MyWork() {
                   </a>
                 </div>
               </div>
-              <img src={Vidtube} alt="Jotion project" />
+              <img src={Vidtube} alt="Vidtube" />
             </div>
           </div>
           
@@ -61,7 +78,7 @@ export default function MyWork() {
                   </a>
                 </div>
               </div>
-              <img src={Resto} alt="Jotion project" />
+              <img src={Resto} alt="Restaurant-ecommerce" />
             </div>
           </div>
 
@@ -77,7 +94,7 @@ export default function MyWork() {
                   </a>
                 </div>
               </div>
-              <img src={Login} alt="Jotion project" />
+              <img src={Login} alt="Number guess" />
             </div>
           </div>
 
@@ -94,26 +111,13 @@ export default function MyWork() {
                   </a>
                 </div>
               </div>
-              <img src={Weather} alt="Movies4u project" />
+              <img src={Weather} alt="Weather app" />
             </div>
           </div>
 
           
 
-          <div className="project">
-            <div className="card" data-aos="flip-left" >
-              <div className="overview">
-                <h1>Todo List</h1>
-                <div className="btns">
-                 
-                  <a href="https://diva-todolist.netlify.app" target="_blank" rel="noopener noreferrer">
-                  <FaLink className='giticons' />
-                  </a>
-                </div>
-              </div>
-              <img src={Todolist} alt="Weather App project" />
-            </div>
-          </div>
+      
         </div>
       </div>
     </div>
