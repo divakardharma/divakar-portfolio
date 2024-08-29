@@ -7,6 +7,7 @@ import Weather from './assets/weatherapp.png';
 import Ecommerce from './assets/Ecommere.png';
 import Vidtube from './assets/vidtube.png'
 import Resto from './assets/resto.png'
+import Movies from './assets/movies.png'
 import { FaLink } from "react-icons/fa";
 
 export default function MyWork() {
@@ -66,6 +67,20 @@ export default function MyWork() {
             </div>
           </div>
           
+          <div className="project">
+            <div className="card" data-aos="flip-left">
+              <div className="overview">
+                <h1>Movie Slider</h1>
+                <div className="btns">
+                
+                  <a href="https://movie-sliders.netlify.app" target="_blank" rel="noopener noreferrer">
+                  <FaLink className='giticons'/>
+                  </a>
+                </div>
+              </div>
+              <img src={Movies} alt="Movie slider" />
+            </div>
+          </div>
 
           <div className="project">
             <div className="card" data-aos="flip-left">
@@ -81,7 +96,9 @@ export default function MyWork() {
               <img src={Resto} alt="Restaurant-ecommerce" />
             </div>
           </div>
-
+           
+           
+      
 
           <div className="project">
             <div className="card" data-aos="flip-left">
@@ -100,20 +117,6 @@ export default function MyWork() {
 
           
 
-          <div className="project">
-            <div className="card" data-aos="flip-left">
-              <div className="overview">
-                <h1>Weather app</h1>
-                <div className="btns">
-                
-                  <a href="https://diva-checkweather.netlify.app" target="_blank" rel="noopener noreferrer">
-                  <FaLink className='giticons'/>
-                  </a>
-                </div>
-              </div>
-              <img src={Weather} alt="Weather app" />
-            </div>
-          </div>
 
           
 

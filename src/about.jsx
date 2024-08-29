@@ -38,7 +38,7 @@ export default function About() {
           </div>
           <div className="about-skills" data-aos="fade-down">
             <div className="about-skill skill-level-html" data-aos="fade-down">
-              <p>HTML</p>
+              <p>HTML5</p>
               <hr />
             </div>
             <div className="about-skill skill-level-css" data-aos="fade-down">
@@ -46,7 +46,7 @@ export default function About() {
               <hr />
             </div>
             <div className="about-skill skill-level-bootstrap" data-aos="fade-down">
-              <p>BOOTSTRAP</p>
+              <p>BOOTSTRAP & TAILWIND CSS</p>
               <hr />
             </div>
             <div className="about-skill skill-level-js" data-aos="fade-down">
