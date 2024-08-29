@@ -4,7 +4,7 @@ import './header.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useTypewriter , Cursor } from 'react-simple-typewriter';
-import Pdf from './assets/Divakar\ CV.pdf'
+import Pdf from './assets/DivakarCV.pdf'
 
 export default function Header() {
   useEffect(() => {
