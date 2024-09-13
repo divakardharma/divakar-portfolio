@@ -2,14 +2,8 @@ import React from "react";
 import "./Testimonial.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import profilepic1 from "./assets/profile1.jpg";
-import profilepic2 from "./assets/profile2.jpg";
 import profilepic3 from "./assets/profile3.jpg";
 import profilepic4 from "./assets/profile4.jpg";
-
-// Import Swiper modules
-// import { Pagination } from "swiper";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -42,7 +36,6 @@ export default function Testimonial() {
       </div>
 
       <Swiper
-        // modules={[Pagination]}
         slidesPerView={1}
         pagination={{ clickable: true }}
       >

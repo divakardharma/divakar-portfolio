@@ -41,31 +41,31 @@ export default function About() {
           </div>
           <div className="about-skills" data-aos="fade-down">
             <div className="about-skill skill-level-html" data-aos="fade-down">
-              <p><IoLogoHtml5 />  HTML5</p>
+              <p><IoLogoHtml5 style={{ color: '#eb7405' }} />  HTML5</p>
               <hr />
             </div>
             <div className="about-skill skill-level-css" data-aos="fade-down">
-              <p><FaCss3Alt /> CSS</p>
+              <p><FaCss3Alt style={{ color: '#004cff' }}/> CSS</p>
               <hr />
             </div>
             <div className="about-skill skill-level-bootstrap" data-aos="fade-down">
-              <p><SiTailwindcss /> TAILWIND CSS</p>
+              <p><SiTailwindcss style={{ color: '#00d0ff' }}/> TAILWIND CSS</p>
               <hr />
             </div>
             <div className="about-skill skill-level-js" data-aos="fade-down">
-              <p><IoLogoJavascript /> JAVASCRIPT</p>
+              <p><IoLogoJavascript style={{ color: 'yellow' }}/> JAVASCRIPT</p>
               <hr />
             </div>
             <div className="about-skill skill-level-react" data-aos="fade-down">
-              <p><FaReact /> REACTJS</p>
+              <p><FaReact style={{ color: '#0084ff' }}/> REACTJS</p>
               <hr />
             </div>
             <div className="about-skill skill-level-python" data-aos="fade-down">
-              <p><FaPython /> PYTHON</p>
+              <p ><FaPython  style={{ color: 'white' }}/> PYTHON</p>
               <hr />
             </div>
             <div className="about-skill skill-level-sql" data-aos="fade-down">
-              <p><SiMysql /> MY SQL</p>
+              <p><SiMysql style={{ color: '#00aeff' }}/> MY SQL</p>
               <hr />
             </div>
           </div>

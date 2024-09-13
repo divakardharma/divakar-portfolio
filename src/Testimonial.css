@@ -95,13 +95,12 @@
   }
   
   .testimonial span {
-    /* color: var(--gray); */
     font-size: 1.1rem;
     margin-top: 1rem;
     font-family: "IBM Plex Sans", sans-serif;
   }
   
-  /* Swiper Container */
+
   .t-wrapper .swiper {
     width: 100%;
     height: auto;
