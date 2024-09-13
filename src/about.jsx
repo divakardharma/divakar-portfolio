@@ -1,8 +1,15 @@
 import React, { useEffect } from 'react';
-import Img from './assets/about.png';
+import Img from './assets/about1.jpg';
 import './about.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { IoLogoHtml5 } from "react-icons/io";
+import { FaCss3Alt } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaReact } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
 
 export default function About() {
   useEffect(() => {
@@ -29,36 +36,36 @@ export default function About() {
        
           <div className="about-para" data-aos="fade-down">
             <p>
-              Enthusiastic and motivated recent graduate with a strong foundation
-              in JavaScript and React.js, seeking an entry-level React Developer
-              position. Eager to apply my skills in component-based architecture,
-              responsive design, and modern frontend technologies to contribute
-              to innovative projects and grow within a dynamic development team.
+            Enthusiastic recent graduate skilled in JavaScript and React.js, seeking an entry-level React Developer role. Eager to apply expertise in component-based architecture, responsive design, and modern frontend tools to grow within a dynamic team.
             </p>
           </div>
           <div className="about-skills" data-aos="fade-down">
             <div className="about-skill skill-level-html" data-aos="fade-down">
-              <p>HTML5</p>
+              <p><IoLogoHtml5 />  HTML5</p>
               <hr />
             </div>
             <div className="about-skill skill-level-css" data-aos="fade-down">
-              <p>CSS</p>
+              <p><FaCss3Alt /> CSS</p>
               <hr />
             </div>
             <div className="about-skill skill-level-bootstrap" data-aos="fade-down">
-              <p>BOOTSTRAP & TAILWIND CSS</p>
+              <p><SiTailwindcss /> TAILWIND CSS</p>
               <hr />
             </div>
             <div className="about-skill skill-level-js" data-aos="fade-down">
-              <p>JAVASCRIPT</p>
+              <p><IoLogoJavascript /> JAVASCRIPT</p>
               <hr />
             </div>
             <div className="about-skill skill-level-react" data-aos="fade-down">
-              <p>REACTJS</p>
+              <p><FaReact /> REACTJS</p>
               <hr />
             </div>
             <div className="about-skill skill-level-python" data-aos="fade-down">
-              <p>PYTHON</p>
+              <p><FaPython /> PYTHON</p>
+              <hr />
+            </div>
+            <div className="about-skill skill-level-sql" data-aos="fade-down">
+              <p><SiMysql /> MY SQL</p>
               <hr />
             </div>
           </div>
