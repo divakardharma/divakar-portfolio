@@ -22,7 +22,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3rem 0.5rem;
+    padding: 2rem 0.5rem;
     margin: 0 auto;
    
     max-width: 1500px;
@@ -31,7 +31,7 @@
   .projects .container {
     width: 100%;
     max-width: 1400px;
-    padding: 0px 15px;
+    padding: 0px 10px;
     
   }
 
@@ -75,11 +75,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4rem;
+    gap: 5rem;
   }
   
   .projects .project {
-    flex-basis: calc(33.333% - 2rem);
+    flex-basis: calc(39.333% - 2rem);
     display: flex;
     justify-content: center;
     align-items: center;
