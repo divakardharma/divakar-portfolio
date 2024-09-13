@@ -14,6 +14,7 @@
       }
       
       .navbar {
+        font-family: "IBM Plex Sans", sans-serif;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -24,6 +25,7 @@
         background-color: #706e6b10;
       }
     .navlist {
+      font-family: "IBM Plex Sans", sans-serif;
       display: flex;
       align-items: center;
       list-style: none;

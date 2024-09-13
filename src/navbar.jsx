@@ -30,27 +30,27 @@ export default function Navbar() {
         <img src={menu_close} onClick={closeMenu} className="nav-mob-close" alt="Close menu" />
         <li>
           <Anchor className="anchor-link" href="#Home">
-            <p onClick={() => setMenu('Home')} data-aos="zoom-in">HOME</p>
+            <p onClick={() => setMenu('Home')} data-aos="zoom-in">Home</p>
           </Anchor>
         </li>
         <li>
           <Anchor className="anchor-link" href="#About">
-            <p onClick={() => setMenu('About')} data-aos="zoom-in">ABOUT</p>
+            <p onClick={() => setMenu('About')} data-aos="zoom-in">About</p>
           </Anchor>
         </li>
         <li>
           <Anchor className="anchor-link" href="#project">
-            <p onClick={() => setMenu('project')} data-aos="zoom-in">MY PROJECTS</p>
+            <p onClick={() => setMenu('project')} data-aos="zoom-in">My Projects</p>
           </Anchor>
         </li>
         <li>
           <Anchor className="anchor-link" href="#Testimonials">
-            <p onClick={() => setMenu('Testimonial')} data-aos="zoom-in">TESTIMONIAL</p>
+            <p onClick={() => setMenu('Testimonial')} data-aos="zoom-in">Testimonial</p>
           </Anchor>
         </li>
         <li>
           <Anchor className="anchor-link" href="#Contact">
-            <p onClick={() => setMenu('Contact')} data-aos="zoom-in">CONTACT</p>
+            <p onClick={() => setMenu('Contact')} data-aos="zoom-in">Contact</p>
           </Anchor>
         </li>
       </ul>

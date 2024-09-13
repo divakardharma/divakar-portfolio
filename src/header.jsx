@@ -1,12 +1,16 @@
-import React, { useEffect } from 'react';
-import Img from './assets/pro.png';
+import React, { useEffect,useState } from 'react';
+import Img from './assets/boy.png';
+import Vector1 from './assets/Vector11.png';
+import Vector2 from './assets/Vector22.png';
+import Emoji from './assets/glassemji1.png';
 import './header.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useTypewriter , Cursor } from 'react-simple-typewriter';
-import Pdf from './assets/DivakarCV.pdf'
+import Pdf from './assets/divakarcv.pdf'
 
 export default function Header() {
+
   useEffect(() => {
     Aos.init({ duration: 1000 }); 
   }, []);
@@ -17,8 +21,15 @@ export default function Header() {
   });
   return (
     <div id="Home" className="header1" >
-      <div className='picdiv'data-aos="fade-up">
-      <img src={Img} className="profilepic"alt="Profile pic"/></div>
+      <div className='picdiv'>
+      <img src={Vector1} className="vector1"alt=""/>
+      <img src={Vector2} className="vector2"alt=""/>
+      <img src={Img} className="profilepic" data-aos="zoom-in" alt="Profile pic"/></div>
+      <div className='blur'></div>
+      <div className='devbox' ><img data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="200"
+     data-aos-offset="0"src={Emoji} alt="" /></div>
       <div className="profile" data-aos="fade-down">
     
       <div className='diva'> <h1><div className='divakar'>
@@ -39,4 +50,3 @@ export default function Header() {
     </div>
   );
 }
-

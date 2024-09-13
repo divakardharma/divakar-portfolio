@@ -26,12 +26,14 @@
   }
   
   .t-heading > * {
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 1.2;
   }
   
   .t-heading span:nth-of-type(2) {
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 2.4rem;
     font-weight: 900;
     background: linear-gradient(270deg, #da7c25 30%, #b923e1 100%);
@@ -60,7 +62,7 @@
     height: 15rem;
     background: orange;
     filter: blur(100px);
-    opacity: 0.2;
+    opacity: 0.5;
   }
   
   /* Testimonial Card */
@@ -96,6 +98,7 @@
     /* color: var(--gray); */
     font-size: 1.1rem;
     margin-top: 1rem;
+    font-family: "IBM Plex Sans", sans-serif;
   }
   
   /* Swiper Container */
@@ -143,6 +146,7 @@
       left: 5%;
       width: 10rem;
       height: 10rem;
+      opacity: 0.5;
     }
   }
   
@@ -177,6 +181,7 @@
     left: 5%;
     width: 10rem;
     height: 10rem;
+    opacity: 0.5;
   }
   }
   
