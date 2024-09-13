@@ -68,7 +68,7 @@ body {
   background: #ed7ff3;
   filter: blur(72px);
   z-index:-9;
-  top: 27%;
+  top: 36%;
   right: 56%;
 }
 .devbox img{
@@ -78,7 +78,7 @@ body {
   width: 180px;
   z-index:1;
   /* transform: scale(0.62); */
-  top: 70%;
+  top: 190%;
   left: 25%;
   border-radius: 20px;
   padding: 0;
@@ -204,8 +204,8 @@ font-family: "IBM Plex Sans", sans-serif;
     background: #ed7ff3;
     filter: blur(72px);
     z-index:-9;
-    top: 16%;
-    right: 64%;
+    top: 26%;
+    right: 60%;
   }
   .devbox{
     position:absolute;
@@ -213,7 +213,7 @@ font-family: "IBM Plex Sans", sans-serif;
     width: 270px;
     z-index:1;
     transform: scale(0.65);
-    top: 23%;
+    top: 6%;
     left: 22%;
     border-radius: 20px;
     padding: 0;
@@ -276,7 +276,7 @@ font-family: "IBM Plex Sans", sans-serif;
     width: 270px;
     z-index:1;
     transform: scale(0.65);
-    top: 25%;
+    top: 8%;
     left: 18%;
     border-radius: 20px;
     padding: 0;
@@ -309,7 +309,7 @@ font-family: "IBM Plex Sans", sans-serif;
     width: 270px;
     z-index:1;
     transform: scale(0.60);
-    top: 21%;
+    top: 8%;
     left: 15%;
     border-radius: 20px;
     padding: 0;
@@ -344,7 +344,7 @@ font-family: "IBM Plex Sans", sans-serif;
     width: 270px;
     z-index:1;
     transform: scale(0.50);
-    top: 22%;
+    top: 8%;
     left: 37%;
     border-radius: 20px;
     padding: 0;
@@ -406,7 +406,7 @@ font-family: "IBM Plex Sans", sans-serif;
     width: 270px;
     z-index:1;
     transform: scale(0.50);
-    top: 18%;
+    top: 4%;
     left: 31%;
     border-radius: 20px;
     padding: 0;
@@ -469,7 +469,7 @@ font-family: "IBM Plex Sans", sans-serif;
     width: 270px;
     z-index:1;
     transform: scale(0.40);
-    top: 13%;
+    top: 3%;
     left: 20%;
     border-radius: 20px;
     padding: 0;
@@ -482,7 +482,7 @@ font-family: "IBM Plex Sans", sans-serif;
     background: #ed7ff3;
     filter: blur(72px);
     z-index:-9;
-    top: 21%;
+    top: 15%;
     right: 19%;
   }
 

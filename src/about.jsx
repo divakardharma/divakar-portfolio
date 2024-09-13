@@ -57,6 +57,10 @@ export default function About() {
               <p>REACTJS</p>
               <hr />
             </div>
+            <div className="about-skill skill-level-python" data-aos="fade-down">
+              <p>PYTHON</p>
+              <hr />
+            </div>
           </div>
         </div>
       </div>
