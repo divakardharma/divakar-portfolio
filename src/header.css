@@ -166,6 +166,77 @@ font-family: "IBM Plex Sans", sans-serif;
 }
 
 
+@media (max-width: 2500px) {
+  .header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:20px;
+    text-align: center;
+  }
+  .vector1 {
+    transform: scale(0.65);
+    position: absolute; 
+    z-index: -1;
+  }
+  .vector2 {
+    transform: scale(0.55);
+    position: absolute; 
+    z-index: -1; 
+  }
+  
+  .profilepic {
+   
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .picdiv {
+    position: relative; 
+  }
+  .blur{
+    position:absolute;
+    width: 20rem;
+    height: 10rem;
+    border-radius:50%;
+    background: #ed7ff3;
+    filter: blur(72px);
+    z-index:-9;
+    top: 16%;
+    right: 64%;
+  }
+  .devbox{
+    position:absolute;
+    height: 272px;
+    width: 270px;
+    z-index:1;
+    transform: scale(0.65);
+    top: 25%;
+    left: 22%;
+    border-radius: 20px;
+    padding: 0;
+  }
+  .profilepic {
+    max-width: 350px;
+  }
+  .profile h1 {
+    font-size: 2.2rem;
+  }
+
+  .profile p {
+    font-size: 1.1rem;
+  }
+
+  .headerconnect,
+  .navresume {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+  }
+}
+
+
 @media (max-width: 1200px) {
   .vector1 {
     transform: scale(0.65);
@@ -196,7 +267,7 @@ font-family: "IBM Plex Sans", sans-serif;
     background: #ed7ff3;
     filter: blur(72px);
     z-index:-9;
-    top: 29%;
+    top: 18%;
     right: 54%;
   }
   .devbox{
@@ -205,7 +276,7 @@ font-family: "IBM Plex Sans", sans-serif;
     width: 270px;
     z-index:1;
     transform: scale(0.65);
-    top: 35%;
+    top: 25%;
     left: 18%;
     border-radius: 20px;
     padding: 0;
@@ -238,8 +309,8 @@ font-family: "IBM Plex Sans", sans-serif;
     width: 270px;
     z-index:1;
     transform: scale(0.60);
-    top: 30%;
-    left: 13%;
+    top: 18%;
+    left: 15%;
     border-radius: 20px;
     padding: 0;
   }
@@ -273,8 +344,8 @@ font-family: "IBM Plex Sans", sans-serif;
     width: 270px;
     z-index:1;
     transform: scale(0.50);
-    top: 30%;
-    left: 35%;
+    top: 22%;
+    left: 33%;
     border-radius: 20px;
     padding: 0;
   }
@@ -286,7 +357,7 @@ font-family: "IBM Plex Sans", sans-serif;
     background: #ed7ff3;
     filter: blur(72px);
     z-index:-9;
-    top: 27%;
+    top: 16%;
     right: 19%;
   }
   .profile h1 {
@@ -335,8 +406,8 @@ font-family: "IBM Plex Sans", sans-serif;
     width: 270px;
     z-index:1;
     transform: scale(0.50);
-    top: 23%;
-    left: 30%;
+    top: 18%;
+    left: 31%;
     border-radius: 20px;
     padding: 0;
   }
@@ -348,7 +419,7 @@ font-family: "IBM Plex Sans", sans-serif;
     background: #ed7ff3;
     filter: blur(72px);
     z-index:-9;
-    top: 25%;
+    top: 16%;
     right: 19%;
   }
 
