@@ -47,7 +47,7 @@ body {
 .aboutpic {
   width: 90%;
   margin-left: 5%;
-  max-width: 500px; 
+  max-width: 450px; 
   border-radius: 20px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -141,7 +141,7 @@ body {
   }
   .aboutpic {
     width: 85%;
-    max-width: 500px; 
+    max-width: 400px; 
     border-radius: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   }
