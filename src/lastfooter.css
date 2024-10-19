@@ -54,13 +54,13 @@
 
 .footericons:hover {
   outline-offset: 3px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.0s ease-in-out;
 }
 
 
 .footericons:hover svg {
   transform: scale(1.15);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.0s ease-in-out;
 }
 
 .social-links li:nth-child(3) .footericons:hover {
@@ -69,12 +69,15 @@
     #fdf497 5%, #fd5949 45%,
     #d6249f 60%, #285AEB 90%
   );
+  border-radius: 30%;
 }
 
 .social-links li:nth-child(2) .footericons:hover {
   background-color: #706c6c;
+  border-radius: 5px;
 }
 
 .social-links li:nth-child(1) .footericons:hover {
   background-color: #055ef7;
+  border-radius: 5px;
 }
