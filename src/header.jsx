@@ -16,7 +16,7 @@ export default function Header() {
   }, []);
 
   const [text]=useTypewriter({
-    words:[' Web Developer',' Frontend Developer',' React Developer'],
+    words:[' Web Developer',' Frontend Developer',' React Developer','Full Stack Developer'],
     loop:{},
   });
   return (
