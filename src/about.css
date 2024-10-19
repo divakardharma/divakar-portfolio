@@ -141,6 +141,10 @@
   .tab-contents ul li span{
     font-size: 1.4rem;
   }
+  #About {
+    padding: 150px 0;
+    color: #ffffff;
+  }
 
 }
 @media only screen and (max-width: 2000px) {
@@ -167,6 +171,10 @@
 @media only screen and (max-width: 1500px) {
   .about-col-1 img {
     width: 70%;
+  }
+  #About {
+    padding: 70px 0;
+    color: #ffffff;
   }
 }
 @media only screen and (max-width: 1200px) {
