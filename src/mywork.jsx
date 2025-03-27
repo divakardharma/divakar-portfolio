@@ -15,7 +15,7 @@ const projects = [
   {
     title: 'Ecommerce Website',
     image: Ecommerce,
-    link: 'https://66b45096a5620f8aeb23aab5--superb-bombolone-929e76.netlify.app/',
+    link: 'https://superb-bombolone-929e76.netlify.app/',
     Git:'https://github.com/divakardharma/ecommerce'
   },
   {
