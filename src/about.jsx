@@ -7,7 +7,8 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
-import { TbBrandDjango } from "react-icons/tb";
+import { FaJava } from "react-icons/fa";
+// import { TbBrandDjango } from "react-icons/tb";
 
 import './about.css';
 
@@ -87,14 +88,14 @@ const About = () => {
             <div className='intermitte'>
           <p className='tab-links'>Intermediate:</p> 
             <div className="about-skill skill-level-python" >
-              <p ><FaPython  style={{ color: 'white' }}/> PYTHON</p>
+              <p ><FaJava   style={{ color: 'white' }}/> CORE JAVA</p>
              
             </div>
            
-            <div className="about-skill skill-level-Django" >
+            {/* <div className="about-skill skill-level-Django" >
               <p><TbBrandDjango style={{ color: 'green' }}/> DJANGO</p>
               
-            </div>
+            </div> */}
             <div className="about-skill skill-level-sql" >
               <p><SiMysql style={{ color: '#00aeff' }}/> MY SQL</p>
               

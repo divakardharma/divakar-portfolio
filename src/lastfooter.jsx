@@ -28,7 +28,7 @@ export default function Footer() {
             </li>
           </ul>
           <div className="footer-bottom">
-            <p>&copy; 2024 Divakardharma. All Rights Reserved.</p>
+            <p>&copy; 2025 Divakardharma. All Rights Reserved.</p>
           </div>
         </div>
       </div>

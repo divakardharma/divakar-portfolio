@@ -76,7 +76,7 @@ export default function Contact() {
               </div>
               <div className="contact-detail">
               <IoLocationSharp className="icons"  />          
-                <p>Thanjavur, Tamilnadu-614205</p>
+                <p>Chennai, Tamilnadu-600078</p>
               </div>
             </div>
           </div>

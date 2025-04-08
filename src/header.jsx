@@ -7,7 +7,7 @@ import './header.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useTypewriter , Cursor } from 'react-simple-typewriter';
-// import Pdf from './assets/cv.pdf'
+import Pdf from './assets/cv1.pdf'
 
 export default function Header() {
 
@@ -43,7 +43,7 @@ export default function Header() {
         <div className="buttons">
           <a href="mailto:divakardharma612@gmial.com">
           <button className="headerconnect">Hire Me</button></a>
-          {/* <a className="navresume" href={Pdf}>Resume</a> */}
+          <a className="navresume" href={Pdf}>Resume</a>
         </div>
       </div>
       
