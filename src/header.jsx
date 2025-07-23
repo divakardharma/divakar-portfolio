@@ -7,7 +7,7 @@ import './header.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useTypewriter , Cursor } from 'react-simple-typewriter';
-import Pdf from './assets/cv1.pdf'
+import Pdf from './assets/cv3.pdf'
 
 export default function Header() {
 
